@@ -1,0 +1,22 @@
+{
+  "read_file": {
+    "risk_level": "SAFE",
+    "default_action": "allow",
+    "allow_approval": false
+  },
+  "write_file": {
+    "risk_level": "SENSITIVE",
+    "default_action": "require_approval",
+    "allow_approval": true
+  },
+  "delete_file": {
+    "risk_level": "DANGEROUS",
+    "default_action": "block",
+    "allow_approval": true
+  },
+  "run_shell": {
+    "risk_level": "DANGEROUS",
+    "default_action": "block",
+    "allow_approval": false
+  }
+}

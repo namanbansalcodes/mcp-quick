@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gatekeeper": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "includeInspector": false,
+  "buildTime": "2026-02-21T09:07:26.272Z",
+  "buildId": "876f3325a9d9076e",
+  "entryPoint": "dist/index.js",
+  "widgets": {
+    "market-view": {
+      "description": "Display Polymarket prediction",
+      "exposeAsTool": false,
+      "title": "market-view",
+      "props": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "currentYes": {
+            "type": "number"
+          },
+          "currentNo": {
+            "type": "number"
+          },
+          "volume": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "currentYes",
+          "currentNo",
+          "volume"
+        ],
+        "additionalProperties": false
+      },
+      "inputs": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "currentYes": {
+            "type": "number"
+          },
+          "currentNo": {
+            "type": "number"
+          },
+          "volume": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "currentYes",
+          "currentNo",
+          "volume"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}
