@@ -1,7 +1,7 @@
 {
   "includeInspector": false,
-  "buildTime": "2026-02-21T09:07:26.272Z",
-  "buildId": "876f3325a9d9076e",
+  "buildTime": "2026-02-21T19:09:23.350Z",
+  "buildId": "442405fce313d713",
   "entryPoint": "dist/index.js",
   "widgets": {
     "market-view": {
