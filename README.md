@@ -35,6 +35,14 @@ pip install fastmcp mcp-use
 python server.py
 ```
 
+## Git Safety (Recommended)
+
+This repo includes a `.gitignore` and an optional pre-commit hook to prevent accidentally committing `node_modules/`, `__pycache__/`, `.env*`, and `*.log`.
+
+```bash
+./scripts/setup-githooks.sh
+```
+
 ## How to Test
 
 ### Option 1: mcp-use Inspector (Recommended)
