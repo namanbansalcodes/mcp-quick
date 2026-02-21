@@ -4,9 +4,9 @@ set -euo pipefail
 bad_path_regexes=(
   '(^|/)node_modules/'
   '(^|/)__pycache__/'
-  '\\.pyc$'
-  '\\.log$'
-  '(^|/)\\.env($|\\.)'
+  '\.pyc$'
+  '\.log$'
+  '(^|/)\.env($|\.)'
 )
 
 blocked_files=()
